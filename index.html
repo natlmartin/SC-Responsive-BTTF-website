@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="A website about Back to the Future" />
+    <title>Natalie Martin | Back to the Future Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Natalie Martin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                title="Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html#contact" title="Contact"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html" title="About">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="intro">
+      <h2>👋 Hi I am</h2>
+      <h1>Natalie Martin</h1>
+      <h3>🇬🇧 Front-end developer, based in Reading</h3>
+      <div class="navigation-links">
+        <a href="about.html#contact" class="contact-link" title="Contact"
+          >Contact me</a
+        >
+        <a href="about.html" class="about-link" title="About">About me</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="project row">
+        <div class="image-container col-6 d-flex align-items-center">
+          <img
+            class="image-fluid rounded col-8"
+            alt="Doc and Marty"
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+        <div class="project-info col-6">
+          <h2 class="project-title">"Great Scott!"</h2>
+          <p class="project-copy">
+            Like I always told you, if you put your mind to it you could
+            accomplish anything. Calm down, Marty, I didn't disintegrate
+            anything. The molecular structure of Einstein and the car are
+            completely intact. So tell me, future boy, who's president of the
+            United States in 1985? Alright, I'm ready. Listen, this is very
+            important, I forgot my video camera, could you stop by my place and
+            pick it up on your way to the mall?
+          </p>
+          <div class="d-none d-md-block d-lg-block">
+            <a href="#" class="project-link" title="Hit 88mph">Hit 88mph</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="project row">
+        <div class="project-info col-6">
+          <h2 class="project-title">"Nobody Calls Me Chicken."</h2>
+          <p class="project-copy">
+            Like I always told you, if you put your mind to it you could
+            accomplish anything. Calm down, Marty, I didn't disintegrate
+            anything. The molecular structure of Einstein and the car are
+            completely intact. So tell me, future boy, who's president of the
+            United States in 1985? Alright, I'm ready. Listen, this is very
+            important, I forgot my video camera, could you stop by my place and
+            pick it up on your way to the mall?
+          </p>
+          <div class="d-none d-md-block d-lg-block">
+            <a href="#" class="project-link" title="Hit 88mph">Hit 88mph</a>
+          </div>
+        </div>
+        <div class="image-container col-6 d-flex align-items-center">
+          <img
+            alt="Marty & the DeLorean"
+            class="image-fluid rounded col-8"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu6bDeIiprgXYdj3WYPpCByQXOQWsW0fiKuQ&usqp=CAU"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="project row">
+        <div class="image-container col-6 d-flex align-items-center">
+          <img
+            alt="DeLorean"
+            class="image-fluid rounded col-8"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnO8N1LdnwrQ6aHXz0HfApC1HdrEm_gIX3Hw&usqp=CAU"
+          />
+        </div>
+        <div class="project-info col-6">
+          <h2 class="project-title">
+            "Roads? Where We’re Going, We Don’t Need Roads."
+          </h2>
+          <p class="project-copy">
+            Like I always told you, if you put your mind to it you could
+            accomplish anything. Calm down, Marty, I didn't disintegrate
+            anything. The molecular structure of Einstein and the car are
+            completely intact. So tell me, future boy, who's president of the
+            United States in 1985? Alright, I'm ready. Listen, this is very
+            important, I forgot my video camera, could you stop by my place and
+            pick it up on your way to the mall?
+          </p>
+          <div class="d-none d-md-block d-lg-block">
+            <a href="#" class="project-link" title="Hit 88mph">Hit 88mph</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
